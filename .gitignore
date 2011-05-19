@@ -1,4 +1,5 @@
 *.tmproj
+.gitignore
 
 # osx noise
 .DS_Store
