@@ -1,0 +1,51 @@
+@import url(reset.css);
+
+BODY {
+	padding:40px 0 0 40px;
+	background:#C5CBD0 url(../images/background.png);
+	font-family:Arial, sans-serif;
+	}
+OL {
+	float:left;
+	}
+	OL LI {
+		float:left;
+		margin:0 40px 40px 0;
+		}
+H2 {
+	height:54px;
+	color:#8094A5;
+	text-shadow:0 1px 2px #FFF;
+	font-weight:bold;
+	font-size:18px;
+	}
+	H2 SPAN {
+		display:block;
+		margin:5px 0 0;
+		font-weight:normal;
+		font-size:12px;
+		}
+IFRAME {
+	padding:0 0 25px;
+	border:none;
+	-webkit-border-radius:1px;
+	-mos-border-radius:1px;
+	border-radius:1px;
+	background:#FFF 100% 100% no-repeat;
+	-webkit-box-shadow:0 0 0 1px #FFF, 0 0 0 7px #FFF, 0 0 0 8px rgba(0, 0, 0, 0.1), 0 4px 12px rgba(0, 0, 0, 1);
+	-moz-box-shadow:0 0 0 1px #FFF, 0 0 0 7px #FFF, 0 0 0 8px rgba(0, 0, 0, 0.1), 0 4px 12px rgba(0, 0, 0, 1);
+	box-shadow:
+		0 0 0 1px #FFF,
+		0 0 0 7px #FFF,
+		0 0 0 8px rgba(0, 0, 0, 0.1),
+		0 4px 12px rgba(0, 0, 0, 1);
+	}
+IFRAME:hover {
+	background-image:url(../images/close.png);
+	-webkit-box-shadow:0 0 0 1px #305F8D, 0 0 0 8px #3C7CBD, 0 4px 12px rgba(0, 0, 0, 1);
+	-moz-box-shadow:0 0 0 1px #305F8D, 0 0 0 8px #3C7CBD, 0 4px 12px rgba(0, 0, 0, 1);
+	box-shadow:
+		0 0 0 1px #305F8D,
+		0 0 0 8px #3C7CBD,
+		0 4px 12px rgba(0, 0, 0, 1);
+	}

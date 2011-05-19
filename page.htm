@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Example Page</title>
+	<meta charset="UTF-8">
+	<style>
+		/* Regular version */
+		BODY {
+			margin:0;
+			padding:20px;
+			background:#CCC;
+			font:20px Arial, sans-serif;
+			}
+		H1 {
+			margin:0;
+			}
+		
+		/* Minimized version */
+		@media	screen and (view-mode:minimized),
+		 		screen and (min-width:256px) and (min-height:160px) and (max-width:512px) and (max-height:320px) {
+			BODY {
+				background:#A8D7EB;
+				color:#FFF;
+				}
+			H1 {
+				content:'Large';
+				}
+			}
+		@media	screen and (view-mode:minimized),
+		 		screen and (max-width:384px) and (max-height:266px) {
+				BODY {
+					background:#81BC44;
+					}
+				H1 {
+					content:'Medium';
+					}
+			}
+		@media	screen and (view-mode:minimized),
+		 		screen and (max-width:256px) and (max-height:160px) {
+				BODY {
+					background:#F47737;
+					}
+				H1 {
+					content:'Small';
+					}
+			}
+	</style>
+</head>
+<body>
+	<h1>Regular Page</h1>
+</body>
+</html>
