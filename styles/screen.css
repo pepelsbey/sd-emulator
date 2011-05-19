@@ -3,19 +3,21 @@
 BODY {
 	padding:40px 0 0 40px;
 	background:#C5CBD0 url(../images/background.png);
-	font-family:Arial, sans-serif;
+	color:#8094A5;
+	text-shadow:0 1px 2px #FFF;
+	font:12px Arial, sans-serif;
 	}
-OL {
-	float:left;
+HEADER {
+	clear:both;
 	}
-	OL LI {
-		float:left;
-		margin:0 40px 40px 0;
-		}
+H1 {
+	margin:0 0 5px;
+	font-weight:bold;
+	font-size:28px;
+	}
 H2 {
 	height:54px;
 	color:#8094A5;
-	text-shadow:0 1px 2px #FFF;
 	font-weight:bold;
 	font-size:18px;
 	}
@@ -48,4 +50,15 @@ IFRAME:hover {
 		0 0 0 1px #305F8D,
 		0 0 0 8px #3C7CBD,
 		0 4px 12px rgba(0, 0, 0, 1);
+	}
+OL {
+	float:left;
+	}
+	OL LI {
+		float:left;
+		margin:0 40px 40px 0;
+		}
+A {
+	text-decoration:none;
+	color:#1980F8;
 	}
